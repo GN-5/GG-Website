@@ -1,0 +1,116 @@
+.root {
+  position: relative;
+  width: 1112px;
+  height: 111px;
+  align-items: flex-start;
+}
+.bg {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - -0.5px);
+  width: 1112px;
+  height: 112px;
+  border-radius: 20px;
+  background-image: linear-gradient(180deg, #c058ffff 0%, #930bffff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  transform: translate(-50%, -50%);
+}
+.elements {
+  position: absolute;
+  left: calc(50% - 0.328px);
+  top: 50%;
+  width: 1413.344px;
+  height: min-content;
+  place-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 0 62px;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  width: 148.3735px;
+  height: 55.2658px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 35px;
+}
+.services {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Satoshi, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.packages {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Satoshi, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.solutions {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Satoshi, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.aboutUs {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Satoshi, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.quote {
+  width: 214px;
+  height: 65px;
+  place-content: center;
+  align-items: center;
+  padding: 8px 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.getQuotation {
+  background-image: linear-gradient(180deg, #c058ffff 0%, #930bffff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Satoshi, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
